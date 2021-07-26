@@ -17,6 +17,8 @@
   </dependencies>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <sonar.exclusions>/src/main/java/com/mycompany/app/App.java</sonar.exclusions>
+    <sonar.exclusions>/src/test/java/com/mycompany/app/App.java</sonar.exclusions>
     <sonar.projectKey>sonarproject</sonar.projectKey>
   </properties>
   <build>
